@@ -1,0 +1,33 @@
+body{
+	background-position: center;
+	background-image: url(image/the.jpg);
+	background-size: 70px 80px;
+	background-repeat: repeat;
+	
+}
+.container{
+	font-family: serif;
+	color: white;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 200px;
+	text-shadow: 2px 2px gray;
+	transition: all 1s;
+	
+}
+.container:hover{
+	transform: scale(1.1);
+}
+
+.btn{
+	margin-top:100px ;
+	text-align: center;
+	padding: 10px 10px;
+	position: inherit;
+	color: white;
+	background-color: #008CBA;
+	
+}
+.btn:hover{
+	background-color: white;
+}
